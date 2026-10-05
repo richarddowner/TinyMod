@@ -16,7 +16,7 @@ Old name **blockhd** changed to **tiny** due alot other modders used the same na
 * Blocks as many HD content of the game as possible while keep the gameplay functionality available
 * You can still be in Lobby / Chat, etc..
 * Ingame you can just stand still and do nothing (filler)
-* If you wanna play, press the hotkey to switch to old legacy graphics
+* If you wanna play, press the hotkey to switch to old legacy graphics (not possible in Reign of the Warlock - legacy graphics was removed there)
 * Super fast loading times when switching acts/waypoints
 * Reduced CPU/RAM usage significant by more then 50% in compare to no mod usage
 * You dont need to extract your gamefiles with casc view (saves space)
@@ -34,6 +34,10 @@ Old name **blockhd** changed to **tiny** due alot other modders used the same na
 
 
 # Pictures
+
+Character creation on patch 3.2 (Reign of the Warlock):
+
+![tiny_warlock](character-selection-screen.jpg)
 
 ![tiny_newchar](https://user-images.githubusercontent.com/119764208/222893928-afa6b7d0-307b-4683-b0da-a8cde0a66d56.png)
 
