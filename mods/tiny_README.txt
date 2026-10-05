@@ -43,6 +43,38 @@ Give it a try if you want to :D
 # Changelog History #
 ---------------------
 
+# v1.2 (05.10.2026)
+	- compatibility fix for patch 3.2 "Reign of the Warlock" (game version 1.34)
+	- fixes the Warlock showing as "Missing String" in character select
+	  and the error prompt on game start
+	- removed the mod's stale copies of these files so the game's own
+	  up-to-date versions are used again (they were unmodified vanilla
+	  copies from patch 2.6, so nothing the mod actually does is lost):
+	      data/local/lng/strings/ui.json
+	      data/local/lng/strings-legacy/ui.json
+	      data/local/lng/strings/levels.json
+	      data/global/excel/missiles.txt
+	      data/global/excel/sounds.txt
+	      data/hd/character/monsters.json
+	      data/global/ui/layouts/charactercreatepanelhd.json
+	- side effect: the character creation screen is now the game's stock
+	  layout (it has to be - it needs 8 class slots instead of 7)
+	- added the missing data/global/dataversionbuild.txt (build 93847).
+	  This mod never shipped it, so newer patches showed
+	  "Data version mismatch detected ... Detected data version: Unknown"
+	  on startup. Required to clear that dialog.
+	  This number must be bumped on EVERY game patch - the correct value
+	  is the "Current data version" shown in that error message.
+	- NOTE on patch 3.2: legacy / classic graphics mode is GONE in Reign
+	  of the Warlock. This is not a Warlock-only limitation - no class can
+	  use it in RotW. It survives only in the separate Classic/LoD game
+	  versions, so the old "press G to play" workflow no longer applies.
+	  The filler/black-screen use case is UNAFFECTED - entering the game
+	  to a black screen still works, because that comes from the blanked
+	  HD assets and has nothing to do with the legacy toggle.
+	  Confirmed working on 3.2.
+
+
 # v1.1 (24.02.2023)
 	- updated to patch 2.6
 

@@ -43,7 +43,7 @@
                             "width": 1400,
                             "height": 700
                         },
-                        "text": "\n TINY MOD v1.1   --> (works on bnet)\n Latest Update: 24.02.2023\n\n Creator: Gimli#4667 on Discord, e-soni on d2jsp\n\n General Info: (check the readme for changelog)\n   - updated to patch 2.6\n   - reworked the menu\n   - removed videos, music and all that sh*t\n   - added info (press G to play)\n   - renamed from blockhd to TINY\n     (due different mods called blockhd)\n \n \n Contact me for further improvements/ideas!",
+                        "text": "\n TINY MOD v1.2   --> (works on bnet)\n Latest Update: 05.10.2026\n\n Creator: Gimli#4667 on Discord, e-soni on d2jsp\n\n General Info: (check the readme for changelog)\n   - updated to patch 3.2 (Reign of the Warlock)\n   - dropped stale data overrides so new\n     classes/content come from the game\n   - reworked the menu\n   - removed videos, music and all that sh*t\n   - legacy graphics (press G) was removed\n     by RotW - that workflow is gone\n   - renamed from blockhd to TINY\n     (due different mods called blockhd)\n \n \n Contact me for further improvements/ideas!",
                         "fontType": "26ptF",
                         "style": {
                             "fontColor": {
